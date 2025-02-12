@@ -20,6 +20,16 @@ if not os.path.exists(config_file):
     print("➡️  Please ensure 'config.json' is present in the project root.")
     sys.exit(1)  # Abort execution
 
+folders = ["data", "outputs"]
+
+# Create folders only if they do not exist
+for folder in folders:
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+        print(f"-- Created folder: {folder}")
+
+
+
 auth = InteractiveLoginAuthentication()
 ws = Workspace.from_config(auth=auth)
 
