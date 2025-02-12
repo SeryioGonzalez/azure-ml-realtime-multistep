@@ -1,0 +1,16 @@
+azureml==0.2.7
+azureml_automl_core==1.59.0
+azureml_core==1.59.0.post1
+azureml_dataprep_native==41.0.0
+azureml_dataprep_rslex==2.22.5
+azureml_mlflow==1.59.0.post1
+azureml_pipeline_core==1.59.0
+azureml_pipeline_steps==1.59.0
+azureml_telemetry==1.59.0
+azureml_train_automl_client==1.59.0
+azureml_train_core==1.59.0
+azureml_train_restclients_hyperdrive==1.59.0
+joblib==1.3.2
+pandas==2.2.3
+Requests==2.32.3
+scikit_learn==1.3.2
